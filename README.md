@@ -36,6 +36,16 @@ You'll need Docker installed to spin up the database and Redis cache.
    npm run dev
    ```
 
+### Architecture & Data Flow
+
+```mermaid
+graph TD
+    Client[React Frontend] -->|REST API / HTTP| API[Express Backend]
+    API -->|Read/Write| DB[(PostgreSQL)]
+    API -->|Cache / Queues| Cache[(Redis)]
+    Cache -->|Process Jobs| Worker[BullMQ Worker]
+```
+
 ### Features
 - JWT-based authentication
 - DSA problem tracking and progress management
