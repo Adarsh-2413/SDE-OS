@@ -1,6 +1,6 @@
 # 🚀 SDE OS
 
-> **The ultimate operating system for Software Development Engineers.**
+> **The ultimate all-in-one workspace for Software Development Engineers.**
 > Track your Data Structures and Algorithms (DSA) progress, manage your job applications, and streamline your interview preparation in one modern, full-stack application.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
